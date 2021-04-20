@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "validate login with valid credentials",
+        "description": "",
+        "id": "validate-the-adactin-hotel-booking;validate-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19654664811,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter \"RamAdithyan\" and \"3XCL2X\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RamAdithyan\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"3XCL2X\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDef.enter_and(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5380756193,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "select location \"Sydney\"select Hotel\"Hotel Hervey\" RoomType \"Double\"Number Of Rooms\"2 - Two\"checkin Date\"20/04/2021\"checkOut Date\"21/04/2021\" AdeltsPerRoom\"2 - Two\" ChildrensPerRoom\"1 - One\"click search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"20/04/2021\"",
+                  "offset": 104
+                },
+                {
+                  "val": "\"21/04/2021\"",
+                  "offset": 129
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 155
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 181
+                }
+              ],
+              "location": "StepDef.select_location_select_Hotel_RoomType_Number_Of_Rooms_checkin_Date_checkOut_Date_AdeltsPerRoom_ChildrensPerRoom_click_search_button(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6430683088,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click radio button click Continue",
+            "match": {
+              "location": "StepDef.click_radio_button_click_Continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8837623409,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Fill First Name\"Ram\" Fill Second Name\"Adi\"Fill Address \"xxx\"CreditCard Number\"1234567890123456\"CreditCardType\"VISA\"Expiry DateMonth\"January\" and Expiry DateYear\"2022\"cvv Number\"006\"Click BookNow get orderId",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ram\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Adi\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"xxx\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 109
+                },
+                {
+                  "val": "\"January\"",
+                  "offset": 131
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 160
+                },
+                {
+                  "val": "\"006\"",
+                  "offset": 176
+                }
+              ],
+              "location": "StepDef.fill_First_Name_Fill_Second_Name_Fill_Address_CreditCard_Number_CreditCardType_Expiry_DateMonth_and_Expiry_DateYear_cvv_Number_Click_BookNow_get_orderId(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "validate the adactin hotel booking",
+    "description": "",
+    "id": "validate-the-adactin-hotel-booking",
+    "keyword": "Feature",
+    "uri": "src/test/resources/AdactinFeature/adactinTest.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="40.306593">
+<testcase classname="validate the adactin hotel booking" name="validate login with valid credentials" time="40.306593">
+<system-out><![CDATA[Given enter "RamAdithyan" and "3XCL2X"......................................passed
+When select location "Sydney"select Hotel"Hotel Hervey" RoomType "Double"Number Of Rooms"2 - Two"checkin Date"20/04/2021"checkOut Date"21/04/2021" AdeltsPerRoom"2 - Two" ChildrensPerRoom"1 - One"click search button.passed
+When click radio button click Continue......................................passed
+And Fill First Name"Ram" Fill Second Name"Adi"Fill Address "xxx"CreditCard Number"1234567890123456"CreditCardType"VISA"Expiry DateMonth"January" and Expiry DateYear"2022"cvv Number"006"Click BookNow get orderId.passed
+]]></system-out>
+</testcase>
+</testsuite>
